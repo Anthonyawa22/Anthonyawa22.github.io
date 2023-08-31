@@ -1,0 +1,86 @@
+
+h2{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding:5px 5px;
+    width: 20%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin:15px auto;
+    
+    
+}
+
+.kids1{
+    background-size: auto;
+    background-image: url("https://img.freepik.com/premium-photo/communication-support-call-center-customer-service-help-deskfor-call-center-concept_545612-326.jpg?w=1800");
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;  
+}
+ a{
+    color:maroon;
+    text-decoration:none;
+    
+}
+form{
+    display:grid;
+}   
+    
+
+#name{
+    width: 100%;
+    background-color: hsl(0, 0, 40);
+    color: black;
+    border:2px solid black;
+    margin:10px 10px;
+    padding: 10px 10px;
+    
+}
+
+#nam,#email,#gender{
+    color: black;
+    font-weight:bolder;
+    font-size:20px;
+    
+}
+select{
+    margin-bottom: 10px;
+    border:2px solid black;  
+}
+
+.tony1 a{
+    color:black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+  }
+   
+  button:hover {
+    cursor: pointer;
+  }
+   
+  button:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }
+
+  .containar{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .containar .tony1{
+    flex-grow: 1;
+  }

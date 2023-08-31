@@ -1,0 +1,289 @@
+@import url("mobilestyle.css");
+@import url("tabletstyle.css");
+
+
+/* OVER VIEW BODY SECTION */
+body {
+    
+   background-image:linear-gradient(grey,black);
+   flex-shrink: 2;
+}
+
+/* HEADER */
+
+header img{
+    width:100%;/*this stretches across the view point*/
+    height:auto;/*the height will change base on the size of the view point*/
+    max-width: 500px;
+    padding-bottom: 1em;
+    font-size: 22px;
+    
+}
+
+/* NAVIGATION */
+
+nav{
+    /*background-color:white;
+    border-top:solid 0.3em black;
+    border-bottom: solid 0.3em black;*/
+   /* border-radius: 1.0em;this rounds the corners of the element*/
+    font-weight: bolder;
+    text-align: center;
+   
+    
+    
+    
+}
+
+nav ul {
+
+    padding: 0;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    
+
+}
+nav ul li{
+    background-color:black;
+    padding: 0.6em;
+    min-width: 12%;
+    margin: .25em;
+    list-style-type: none; /* this remove bullet points*/
+    
+}
+
+nav ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    
+
+}
+nav ul li a:hover{
+    background-color:maroon;
+    font-size: 18px;
+    padding:10px;
+    
+}
+
+.header{
+    background-image: url('https://wallpaperaccess.com/full/333783.jpg');
+    background-position:center center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    
+    
+}
+
+.overlay:before {
+    content: " ";
+    z-index: 1;
+    display:block;
+    position: absolute;   
+    height: 45%;
+    width: 98%;
+   background: rgba(0, 0, 0, 0.5);
+}
+.overlay * {
+    position: relative; /* Makes elements display above overlay. */
+}
+
+#header-text{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 25%;
+    width: 60%;
+    z-index: 2 !important;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-family: Akayakanadaka;
+    font-size: 50px;
+    font-weight: 300px;
+    line-height: 60px;
+    margin: 10px;
+}
+.text1{
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 30px;
+}
+
+/* MAIN SECTION */
+
+main{
+    border:1px solid black;
+    background-image:linear-gradient(black,maroon,black,maroon,black,maroon,black);
+    border-radius: 1.0em;/*this rounds the corners of the element*/
+    margin-bottom: 1em;/*this places some space between the element*/
+    width:100%;
+    height:auto;
+}
+.kids1{
+    border:0.3em solid black;
+    background-color:white;
+    border-radius: 1.0em;/*this rounds the corners of the element*/
+    margin-bottom: 1em;/*this places some space between the element*/
+    width:90%;
+    height:auto; 
+    margin-top: 4em;
+    margin-left: 4em;
+    padding:10px 20px;
+    
+}
+/* the text2 is to demonstrate how the image are positioned , you can remove it for future purpose*/
+.text2{
+    border: 2px solid black;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.text2 p {
+    border-top:0;
+    border-bottom:0; 
+    position:absolute;
+    margin-left:35em;
+    font-size:smaller;
+    text-align:left;
+    margin-top:auto;
+    font-family:Akayakanadaka;
+   
+    
+    
+}
+.background-color p:hover{
+    background-image:linear-gradient(black,grey,black,grey,black);
+    color:whitesmoke;
+
+}
+.text3 p {
+    border-top:0;
+    border-bottom:0; 
+    position:absolute;
+    margin-left:60em;
+    font-size:smaller;
+    text-align:right;
+    margin-top:auto;
+    font-family:Akayakanadaka;
+    
+}
+
+.ladies1{
+    border-top:solid 0.3em black;
+    border-bottom:0;
+    background-image:linear-gradient(white,white,white);
+    border-radius: 1.0em;/*this rounds the corners of the element*/
+    margin-bottom: 1em;/*this places some space between the element*/
+    width:90%;
+    height:auto; 
+    margin-top: 4em;
+    margin-left: 4em;
+    border-bottom: solid 0.3em brown;
+}
+
+.advert2 p{
+    text-align: center;
+    color:brown;
+}
+
+.advert1{
+    border-top:solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    background-image:linear-gradient(white,white,white);
+    border-radius: 1.0em;/*this rounds the corners of the element*/
+    margin-bottom: 1em;/*this places some space between the element*/
+    width:90%;
+    height:auto; 
+    margin-top: 4em;
+    margin-left: 4em;
+    
+}
+#homepage{
+    color: white;
+    text-decoration: none;
+}
+
+#homepage:hover{
+    background-color:maroon;
+    font-size: 17px;
+    padding:4px;
+}
+
+#backtop{
+    color: white;
+    text-decoration: none;
+    float:right;
+}
+#backtop:hover{
+    background-color:maroon;
+    font-size: 17px;
+    padding:4px;
+}
+
+
+
+
+/* FOOTER SECTION */
+
+footer{
+    background-image:linear-gradient(to right, white,black);/* to right in the code move the color to the right*/
+    margin-top: 1em;margin-top: 1em;/*this places some space between the element*/
+    text-align:center;
+    border-radius: 1.0em;/*this rounds the corners of the element*/
+    
+}
+footer a{
+    color:black;
+    text-decoration:none;
+}
+
+/* begin desktop.*/
+@media screen and (min-width: 960px){
+   
+    header img{
+        width:auto;
+        height: 4.5em;
+        
+
+    }
+
+    header{
+        background-image:linear-gradient(to right,white,black,black, black);
+        box-shadow: 0.7em 0.7em 0.7em black;
+    }
+
+    nav{
+        background-color: black;
+       padding-top: 0.4em;
+       padding-bottom: 1.3em;
+        margin-top: -4.8em;/* this move the nav element where it wana be */
+        width:65%;
+        float:right;/* this float the nav element to the right side of the page*/
+    }
+
+    nav ul li{
+        display: inline-block;
+        border-radius: 1em;
+    }
+    
+    main div .center{
+        padding:0.5%;
+        width:51%;
+        border-right: 0.3em solid black;
+        border-left: 0.3em solid black;
+         }
+
+    .desktop{
+        display:block;
+    }
+    
+}
+/* begin Desktop.*/
+
+
